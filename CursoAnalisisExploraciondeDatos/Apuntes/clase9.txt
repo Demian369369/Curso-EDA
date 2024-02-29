@@ -1,0 +1,4 @@
+Para un reparto equitativo puede utilizarse la media aritmética o promedio.
+La media ponderada es una media de centralización que da una importancia distinta a cada uno de los valores sobre los que se calcula la media. Se usa para el cálculo de notas de una asignatura y para el IPC
+La media geométrica es la raíz n-ésima del producto de todos los números. Se emplea para promediar porcentajes, índices y cifras relativas
+La media armónica es el recíproco de la media aritmética. Es muy utilizada en el campo de la electrónica y también para promediar múltiplos o cocientes, como en las operaciones bursátiles. 

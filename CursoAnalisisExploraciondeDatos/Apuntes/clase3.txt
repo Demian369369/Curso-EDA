@@ -1,0 +1,9 @@
+tipos de analítica de datos:
+
+DESCRIPTIVA: Es el análisis más básico. Permite dar una vista general de las propiedades, dimensiones y comportamiento de un fenómeno desde la mera descripción de los datos.
+
+DIAGNÓSTICA: Es aplicar unos criterios diferenciales a los datos descriptivos para identificar una situación problemática. Permite establecer relaciones entre variables y crear hipótesis sobre las posibles causas de su comportamiento actual.
+
+PREDICTIVA: Utiliza datos para explicar un posible comportamiento de las variables de interés si se siguen las tendencias actuales o si estas cambian. Permite determinar si la situación problemática identificada puede representar mayor o menor riesgo en el futuro.
+
+PRESCRIPTIVA: Utiliza datos para apoyar la toma de decisiones, con base en eventos del pasado. Propone soluciones basadas en evidencia. Igualmente, la etapa prescriptiva también puede hacer iniciar el ciclo de nuevo, ya que monitorear la solución también da pie a procesos nuevos de descripción y diagnóstico de ese monitoreo, volviendo a iniciar el ciclo una vez más.

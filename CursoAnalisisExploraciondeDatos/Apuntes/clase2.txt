@@ -1,0 +1,31 @@
+Organizar y entender las variables: podrás identificar los diferentes tipos de variables, las categorías a la que pertenecen y el tipo de análisis que puedes realizar sobre ellas.
+Establecer relaciones entre las variables
+Encontrar patrones ocultos en los datos: podrás encontrar información o comportamientos relevantes cuando hagas el EDA.
+Ayuda a escoger el modelo correcto para la necesidad correcta: una vez encuentres como están relacionadas las variables podrás descubrir las variables que mas se ajustan a un tipo de modelo y de esta manera eligiras el correcto
+Ayuda a tomar decisiones informadas: decisiones basadas en los datos, en las relaciones que encuentres entre variables, en patrones ocultos y en los modelos que generes a través de la EDA
+Pasos de una Análisis Exploratorio de Datos
+Hacer preguntas sobe los datos. Hazte las siguientes preguntas para guiar el EDA:
+Que te gustaria encontrar?
+Que quisieras saber de los datos?
+Cual es la razon para realizar el analisis?
+Determinar el tamaño de los datos. Debes responder preguntas como:
+Cuantas observaciones existen?
+Cuantas variables hay?
+Necesito todas las observaciones?
+Necesito todas las variables?
+Categorizar las variables. Debes preguntarte:
+Cuantas variables categóricas existen?
+Cuantas variables continuas existen?
+Como puedo explorar cada variable dependiendo de su categoría?
+Limpieza y validación de los datos. En ese paso debes preguntarte:
+Tengo valores faltantes?
+Cual es la proporción de datos faltantes?
+Como puedo tratar a los datos faltantes?
+Cual es la distribución de los datos?
+Tengo valores atipicos?
+Establecer relaciones entre los datos. Responde preguntas como:
+Existe algun tipo de relacion entre mi variable X y Y?
+Que pasa ahora si considero la variable Z en el analisis?
+Que significa que las observaciones se agrupen?
+Que significa el patron que se observa?
+Este proceso es ciclico. A pesar de que pueda parecer infinito, este proceso en algun momento debe salir del ciclo y continuar para obtener algun tipo de valor

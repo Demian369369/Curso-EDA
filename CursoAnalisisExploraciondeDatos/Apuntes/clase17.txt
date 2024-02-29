@@ -1,0 +1,14 @@
+Matrices de Correlación
+La correlación expresa hasta que punto dos variables estan relacionadas entre si. Es decir, si cambian conjuntamente. Para cuantificar que tanto estan relacionadas, se utiliza el concepto de Coeficiente de Correlacion.
+
+Coeficiente de Correlación: cuantifica la intensidad de la relación lineal entre dos variables en un análisis de correlación
+
+
+
+graph27.jpg
+
+La Correlación no implica causalidad. Causalidad implica “Cuando algo (la causa) genera otra cosa (efecto)
+
+
+
+graph28.jpg

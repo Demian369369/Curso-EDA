@@ -1,0 +1,22 @@
+Análisis de Componentes Principales (PCA)
+
+TSNE (T-distributed Stochastic Neighbor Embedding)
+
+UMAP: Uniform Manifold Approximation and Projectino for Dimension Reduction
+
+Representar muchas dimensiones en menos, por ejemplo 5 a 2.
+
+Se pueden comparar los algoritmos con los datasets que son utilizados principalmente para ML.
+
+Comparación: algoritmo de reducción de dimensión vs. conjunto de datos.
+
+Existen varios algoritmos que ayudan a reducir las dimensiones del dataset.
+
+Además de t-SNE y PCA, existen varios algoritmos populares para la reducción de dimensionalidad en el campo de la ciencia de datos. Algunos de ellos son:
+
+MDS (Multidimensional Scaling): Similar a t-SNE, MDS también se utiliza para visualizar datos en un espacio de menor dimensión. MDS busca preservar las distancias entre los puntos de datos en el espacio de alta dimensión al mapearlos en el espacio de baja dimensión.
+LLE (Locally Linear Embedding): LLE es un algoritmo de reducción de dimensionalidad no lineal que se basa en la presunción de que los puntos cercanos en el espacio de alta dimensión tienen estructuras lineales similares. LLE encuentra pesos lineales para reconstruir localmente cada punto a partir de sus vecinos cercanos en el espacio de alta dimensión y luego mapea los puntos en un espacio de menor dimensión.
+UMAP (Uniform Manifold Approximation and Projection): UMAP es un algoritmo de reducción de dimensionalidad reciente que combina técnicas de preservación de vecindarios y topología. UMAP se centra en preservar la estructura local y global de los datos y ha demostrado ser efectivo para la visualización y el análisis de datos de alta dimensión.
+Autoencoders: Los autoencoders son una clase de redes neuronales que pueden utilizarse para la reducción de dimensionalidad no lineal. Los autoencoders consisten en una etapa de codificación y una etapa de decodificación, donde los datos de alta dimensión se comprimen en un espacio de menor dimensión y luego se reconstruyen a partir de ese espacio comprimido.
+NMF (Non-Negative Matrix Factorization): NMF es una técnica de factorización de matrices que se utiliza para encontrar representaciones de baja dimensión de datos no negativos. NMF descompone una matriz de datos en dos matrices de menor rango, donde los elementos son no negativos, lo que puede ser útil para descubrir patrones y componentes subyacentes en los datos.
+Estos son solo algunos ejemplos de algoritmos de reducción de dimensionalidad utilizados en ciencia de datos. Cada algoritmo tiene sus propias suposiciones y enfoques, y la elección del algoritmo depende del tipo de datos, el objetivo de reducción de dimensionalidad y las características específicas del problema.

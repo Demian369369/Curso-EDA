@@ -1,0 +1,21 @@
+paradoja de Simpson es:
+
+Una tendencia que aparece en varios grupos de datos desaparece cuando estos grupos se combinan y en su lugar aparece la tendencia contraria para los datos agregados.
+
+Fenomeno en el cual es posible concluir dos cosas totalmente opuestas a partir de los mismos datos, dependiendo el como se clasifican estos
+
+Visualiza siempre los datos para tener una mejor idea de las variables que estan relacionadas.
+
+Utiliza pairplot de la libreria Seaborn para obtener un resumen visual de las graficas de par de variables y tener una idea desde el inicio de la EDA sobre la relacion de las variables
+
+
+#Exploracion visual de los datos con seaborn
+sns.pairplot(
+    data=preprocessed_penguins_df,
+    hue='species',
+    palette=penguin_color
+)
+
+La paradoja de Simpson lleva el nombre del matemático británico Edward Simpson, quien la describió por primera vez en un artículo en 1951. En su artículo, Simpson presentó un ejemplo hipotético que mostraba cómo una relación aparente entre dos variables en un conjunto de datos se revertía cuando se desagregaban los datos en subgrupos.
+
+Desde entonces, la paradoja de Simpson se ha identificado en una variedad de campos, desde la medicina hasta la economía, y se ha convertido en un tema importante en la estadística y la ciencia de datos. La paradoja de Simpson demuestra cómo es crucial tener en cuenta las variables relevantes y cómo los datos se agrupan antes de sacar conclusiones.

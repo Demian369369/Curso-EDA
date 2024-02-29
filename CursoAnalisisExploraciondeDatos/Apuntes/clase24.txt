@@ -1,0 +1,5 @@
+coeffs: En los casos de regresión representan la tasa de cambio de de “log odss” respecto de alguna variable independiente en específico (bill_length_mm, island, etc.). Creo que no es responsable establecer de forma concreta si un coeficiente es “importante” si no se considera el rango numérico de la varibable independiente en cuestión, pero en general uno podría decir que mientras más lejos de cero el coeficiente, más efecto tiene una variable en específico.
+
+P>|z| es el p-value que establece si un coeff es estadisticamente significativo en el modelo. Si p-value < alpha (0< alpha <1, elegido bajo nuestro criterio, usualmente 0.05) entonces el coeficiente tiene significancia estadística en el modelo.
+
+LLR p-value: Es el p-value del modelo en general. Si LLR p-value < alpha, entonces nuestro modelo es útil para hacer predicciones.

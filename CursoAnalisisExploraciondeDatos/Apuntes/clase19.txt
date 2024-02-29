@@ -1,0 +1,21 @@
+Otros coeficientes de relación:
+Coeficiente de correlación de Pearson
+Mide la relación lineal entre dos variables continuas. Varía entre -1 y 1, donde 1 indica una correlación positiva perfecta, 0 indica no correlación y -1 indica una correlación negativa perfecta. Funciona mejor para relaciones lineales.
+
+Coeficiente de correlación de Spearman
+Mide la relación monotónica entre dos variables continuas u ordinales. Varía entre -1 y 1, donde 1 indica una correlación positiva perfecta, 0 indica no correlación y -1 indica una correlación negativa perfecta. Funciona mejor para relaciones no lineales o variables ordinales.
+
+Coeficiente de determinación (R-squared)
+Mide la proporción de la varianza en una variable que puede ser explicada por otra variable. Varía entre 0 y 1, donde 0 indica que la variable explicativa no explica la variación en la variable de respuesta y 1 indica que la variable explicativa explica toda la variación en la variable de respuesta. Funciona mejor para relaciones lineales.
+
+Coeficiente de correlación de Kendall
+Mide la relación ordinal entre dos variables. Varía entre -1 y 1, donde 1 indica una correlación positiva perfecta, 0 indica no correlación y -1 indica una correlación negativa perfecta. Funciona mejor para relaciones no lineales o variables ordinales.
+
+Coeficiente de correlación de Point-Biserial
+Mide la relación entre una variable binaria y una variable continua. Varía entre -1 y 1, donde 1 indica una correlación positiva perfecta, 0 indica no correlación y -1 indica una correlación negativa perfecta. Funciona mejor para relaciones lineales.
+
+Coeficiente de correlación de Phi
+Mide la relación entre dos variables binarias. Varía entre -1 y 1, donde 1 indica una correlación positiva perfecta, 0 indica no correlación y -1 indica una correlación negativa perfecta. Funciona mejor para relaciones no lineales o variables nominales.
+
+Coeficiente de correlación de Cramer
+Mide la relación entre dos variables nominales. Varía entre 0 y 1, donde 0 indica no correlación y 1 indica una correlación perfecta. Funciona mejor para relaciones no lineales o variables nominales.

@@ -1,0 +1,41 @@
+
+Estadistica Descriptiva Aplicada: Medidas de Dispersion
+Rango: La diferencia entre el valor maximo y minimo de los datos. Da una idea de que tan dispersos estan los datos
+Rango Intercuartilico: Comprende el 25%, tanto arriba como abajo, de los datos respecto a la mediana. Divide el rango de los datos en 4 partes iguales y considera solo el 50% de los datos
+Desviacion Estandar: Ofrece la dispersion media de una variable. Si a la media de una distribucion Normal se le suma, por arriba y por debajo, la desviacion estandar se obtiene un rango que contiene el 65% de los datos. Si se suma dos desviaciones estandar se obtiene el 95% de los datos. Si se suma tres desviaciones estandar se obtiene el 99% de los datos
+
+Asimetría Estadística
+Esta relacionado con la simetria de la distribucion
+
+Si media = mediana = moda implica que la distribucion es simetrica.
+Si media > mediana > moda, entonces La distribución esta sesgada hacia la izquierda. (Sesgo positivo)
+Si media < mediana < moda, entonces la distribucion esta sesgada hacia la derecha. (Sesgo negativo)
+
+Cutorsis
+Es un estadístico de que tan juntos o que tan dispersos están los datos respecto a la media.
+
+Si Cutorsis = 0, los datos estan distribuidos homogeneamente alrededor de la media (Distribucion Mesocurtica)
+Si Cutorsis > 0, los datos estan concentrados alrededor de la media (Distribucion Leptocurtica)
+Si Cutorsis < 0, los datos estan alejados de la media (Distribucion Platicurtica)
+
+Las medidas de dispersión más comunes son:
+
+
+
+Rango:
+Es la diferencia entre el valor máximo y el valor mínimo en un conjunto de datos.
+El rango da una idea de cuantos dispersos estan los datos.
+Desviación estándar:
+Es la medida más común de la dispersión en un conjunto de datos.
+Mide la cantidad de variación o dispersión de un conjunto de datos con respecto a su medio.
+La desviación estándar se calcula como la raíz cuadrada de la varianza.
+Varianza:
+Es una medida de la dispersión en un conjunto de datos.
+La variación mide cuánto varían los datos con respecto a su medio.
+Es la media de los cuadrados de las desviaciones de cada valor respecto a la media.
+Coeficiente de variación:
+Es la desviación estándar dividida por los medios, expresada como un porcentaje.
+El coeficiente de variación mide la relativa de los datos en relación con su medio.
+Cuartil y rango intercuartil:
+El rango intercuartil es la diferencia entre el tercer cuartil y el primer cuartil.
+Mide la cantidad de variación en el rango medio de los datos.

@@ -1,0 +1,42 @@
+El análisis de regresión múltiple es una técnica estadística utilizada para modelar la relación entre una variable de respuesta o dependiente y dos o más variables predictoras o independientes. A diferencia del análisis de regresión simple, que utiliza solo una variable predictora, el análisis de regresión múltiple permite analizar cómo dos o más variables predictoras influyen en la variable de respuesta.
+El objetivo del análisis de regresión múltiple es crear un modelo matemático que describa la relación entre las variables independientes y la variable dependiente. El modelo se utiliza para predecir los valores de la variable de respuesta en función de los valores de las variables predictoras. Además, el análisis de regresión múltiple puede ayudar a identificar qué variables predictoras son significativas para predecir la variable de respuesta.
+En el análisis de regresión múltiple, la variable dependiente debe ser continua, mientras que las variables predictoras pueden ser continuas o categóricas. Se utilizan diferentes técnicas estadísticas para ajustar el modelo de regresión múltiple y estimar los coeficientes de las variables predictoras.
+
+Otra forma de hacerlo
+
+import statsmodels.formula.api as smf
+
+model = smf.ols('body_mass_g ~ bill_length_mm + bill_depth_mm + species', data=penguins).fit()
+
+print(model.summary())
+Resultado
+
+
+OLS Regression Results                            
+==============================================================================
+Dep. Variable:            body_mass_g   R-squared:                       0.828
+Model:                            OLS   Adj. R-squared:                  0.826
+Method:                 Least Squares   F-statistic:                     405.0
+Date:                Sun, 09 Apr 2023   Prob (F-statistic):          2.64e-127
+Time:                        13:47:55   Log-Likelihood:                -2470.9
+No. Observations:                 342   AIC:                             4952.
+Df Residuals:                     337   BIC:                             4971.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept            -1742.7202    313.770     -5.554      0.000   -2359.914   -1125.526
+species[T.Chinstrap]  -539.6864     86.942     -6.207      0.000    -710.705    -368.668
+species[T.Gentoo]     1492.8283    118.444     12.604      0.000    1259.845    1725.811
+bill_length_mm          55.6461      7.233      7.694      0.000      41.419      69.873
+bill_depth_mm          179.0434     19.100      9.374      0.000     141.474     216.613
+==============================================================================
+Omnibus:                        2.423   Durbin-Watson:                   2.333
+Prob(Omnibus):                  0.298   Jarque-Bera (JB):                2.433
+Skew:                           0.204   Prob(JB):                        0.296
+Kurtosis:                       2.929   Cond. No.                         827.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

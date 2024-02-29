@@ -1,0 +1,101 @@
+Las preguntas son la fuente de toda exploracion. Asegurate de definir qué quieres encontrar y quien necesita consultar los resultados desde un comienzo del EDA.
+Es fundamental identificar el tipo de analisis de datos y variables que se requieren. Explora las dimensiones de tu conjunto de datos y qué tipo de variables contienen.
+Siempre visualiza los estadisticos. Todos los conjuntos de datos son diferentes, concelos mas alla de sus numeros de resumen
+Visualiza una o varias variables de distintas maneras. La diversidad de graficas te permitira conocer a detalle los matices de los datos
+
+import palmerpenguins
+import pandas as pd
+import pandas_profiling as pp
+
+df = palmerpenguins.load_penguins()
+
+pp.ProfileReport(df)
+Tira un reporte general de los datos bastante bueno para el principio del EDA
+
+
+
+examen:
+Resumen 
+1. ¿En qué orden de complejidad y tiempo se encuentra los distintos tipos de analítica de datos?
+
+ Descriptiva, Diagnóstica, Predictiva, Prescriptiva 
+
+2. Las variables ordinales y nominales pertenecen a las variables de tipo ____. 
+
+Categórico
+
+3. ¿Cuáles son 3 de los tipos de análisis de variables que podemos realizar?
+
+Análisis univariado, Análisis bivariado, Análisis multivariado
+
+4.¿Qué busca analizar el análisis univariado?
+
+Busca analizar a cada variable por separado; entender qué la define en sí misma. 
+
+5. ¿Puedes realizar análisis exploratorios de datos en la nube? 
+Verdadero 
+
+6. ¿Qué es la validación de datos? 
+
+El proceso de asegurar la consistencia y precisión dentro de un conjunto de datos. 
+
+7. ¿Cuál es una consecuencia de no limpiar y validar nuestros datos? 
+
+Si los datos no son precisos desde el comienzo, los resultados definitivamente no serán precisos.
+
+8.¿Cuál de los siguientes comandos puede ayudarte a conocer cuántas variables de cada tipo existen en tus datos? 
+
+df.dtypes.value_counts() 
+
+9. ¿Cuál de las siguientes opciones te permite obtener una descripción de valores únicos y frecuencias únicamente de tus variables categóricas?
+
+df.describe(include=[object, "category"]) 
+
+10. ¿Cuál de los siguientes elementos no es una medida de tendencia central? 
+
+rango 11. 
+
+11.¿Cuál de los siguientes elementos no es una medida de dispersión? 
+
+Moda
+
+12.¿Por qué es importante jugar con el número de bins de nuestros histogramas al momento de explorar con nuestros datos? 
+
+Jugar con el número de bins de nuestros histogramas permite descubrir picos o bajadas de datos en ciertas zonas qué podrían ser de interés. 
+A su vez, puede permitir reducir el ruido al incrementar los bins y tener un vistazo general.
+
+13.La función inversa de la Función de Distribución Acumulada para los valores 0.25 y 0.75 sería equivalente a ____. 
+
+Obtener los valores de los cuantiles 1 y 3 de nuestro diagrama de cajas. 
+
+14. ¿Qué es el teorema del límite central? 
+
+La media de las muestras tiende aproximadamente a una distribución normal. 
+
+15. ¿Cuál de las siguientes opciones no es recomentable al realizar una gráfica de puntos con gran densidad? 
+
+Modificar la transparencia de los puntos. 
+REPASAR CLASE 16. 
+
+16.¿Qué significa un valor alpha de 1/30 en una gráfica de puntos?
+
+El alpha indica que son necesarios 30 puntos para obtener el color original sin transparencia. 
+
+17. Realizaste una gráfica de puntos y observas que los puntos forman patrones de bandas, 
+¿cuál de las siguientes opciones podría ser una alternativa de visualización? 
+
+Convertilo en un diagrama stripplot.
+REPASAR CLASE 18. 
+
+Te encuentras realizando un análisis de correlación de Pearson entre dos variables y obtienes como resultado una correlación de 0. 
+¿Qué no podrías concluir de este resultado? 
+
+No existe ninguna correlación entre las dos variables observadas. 
+
+19. La regresión simple únicamente puede manejar relaciones lineales. 
+
+Verdadero 
+
+20. ¿Qué es la Paradoja de Simpson? 
+
+Fenómeno en el cual es posible concluir dos cosas totalmente opuestas a partir de los mismos 

@@ -1,0 +1,16 @@
+Estableciendo relaciones: matrices de correlación
+“Expresa hasta qué punto dos variables están relacionadas entre sí. Es decir, si cambian conjuntamente.”
+
+Coeficiente de correlación: utilizamos Correlación de Pearson
+
+Cuantifica la intensidad de la relación lineal entre dos variables en un análisis de correlación.
+
+r = 1 correlación positiva r = 0 sin correlación r = -1 correlación negativa
+
+Correlación no implica causalidad
+
+Causalidad Cuando algo (la causa) genera otra cosa (efecto)
+
+Correlación Cuando dos o más eventos aparentan estar relacionados
+
+Según la representación de la matriz podría decir que los que más se destacan son la correlación fuerte positiva entre el tamaño de las alas y el peso. También la correlación moderada positiva entre el tamaño de las alas y largo del pico. Y que la profundidad del pico y el tamaño del las alas tenga una correlación moderada negativa.

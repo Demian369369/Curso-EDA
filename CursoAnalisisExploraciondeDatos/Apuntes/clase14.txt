@@ -1,0 +1,7 @@
+eorema de los grandes números
+La probabilidad experimental tiende a la probabilidad teorica a medida que aumenta el numero de repeticiones del experimento. Es muy util cuando no se conoce la probabilidad teorica de un evento y tenemos la capacidad de aumentar la muestra. Mediante este teorema, al incrementar la muestra la probabilidad experimental al final se convertira en la probabilidad teorica.
+
+Teorema del Limite Central
+La media de las muestras tiende aproximadamente a una distribución normal
+
+La suma de n variables aleatorias independientes con medias y varianzas finitas converge en distribucion a una variable aleatoria normal

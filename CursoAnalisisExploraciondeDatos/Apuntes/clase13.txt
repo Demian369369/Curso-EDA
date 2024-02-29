@@ -1,0 +1,30 @@
+empiricaldist
+Es una librería de Python que proporciona herramientas para trabajar con distribuciones empíricas, es decir, distribuciones que se basan en datos reales y no en una función matemática teórica.
+
+Esta librería ofrece una forma sencilla de obtener información sobre las distribuciones empíricas, como el cálculo de estadísticas descriptivas, la visualización de histogramas, la estimación de la densidad de probabilidad y la generación de muestras aleatorias
+
+Aquí te muestro un ejemplo de cómo utilizar empiricaldistel conjunto de datos de penguinspara obtener la distribución empírica de la longitud del pico de los pingüinos:
+
+++Con Python++
+
+
+import empiricaldist
+import palmerpenguins
+
+# Cargamos el dataset de penguins
+penguins = palmerpenguins.load_penguins()
+
+# Seleccionamos la longitud del pico de los pingüinos Adelie
+adelie_bill_length = penguins.loc[penguins['species']=='Adelie', 'bill_length_mm']
+
+# Creamos una distribución empírica a partir de los datos
+adelie_bill_length_dist = empiricaldist.EmpiricalDist(adelie_bill_length)
+
+# Calculamos algunas estadísticas descriptivas
+print("Media:", adelie_bill_length_dist.mean())
+print("Mediana:", adelie_bill_length_dist.median())
+print("Desviación estándar:", adelie_bill_length_dist.std())
+
+# Visualizamos el histograma de la distribución empírica
+adelie_bill_length_dist.plot()
+En este ejemplo, cargamos el conjunto de datos de penguinsutilizando la función load_penguins()de la librería palmerpenguins, y luego seleccionamos la longitud del pico de los pingüinos de la especie Adelie. A continuación, creamos una distribución empírica utilizando la clase EmpiricalDistde empiricaldist, a partir de los datos de longitud del pico de los pingüinos Adelie. Luego, calculamos algunas estadísticas descriptivas como los medios, la mediana y la desviación estándar de la distribución empírica. Finalmente, visualizamos el histograma de la distribución empírica utilizando el método plot().
